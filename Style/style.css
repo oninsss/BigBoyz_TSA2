@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,8 +7,9 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Popins', sans-serif;
     background-color: #f5f7fa;
+    overflow: hidden;
 }
 
 .container{
@@ -26,93 +29,6 @@ body{
     align-items: center;
 }
 
-.containerOne{
-    display: flex;
-    position: relative;
-    width: 30%;
-    height: 100px;
-    background-color: red;
-}
-
-.rectOne{
-    width: 100px;
-    height: 100px;
-    background-color: black;
-}
-
-.rectOne:hover .bigRectOne{
-    top: 20%;
-}
-
-.containerTwo{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding: 30px;
-    width: 70%;
-    height: 100vh;
-    left: 0;
-    background-color: blue;
-}
-
-.bigRectOne{
-    width: 600px;
-    height: 600px;
-    top: -70%; /*should go to 20% top*/
-    left: 30%; /*should go to 30% left*/
-    position: absolute;
-    background-color: pink;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
-
-.bigRectTwo{
-    width: 600px;
-    height: 600px;
-    top: -70%;
-    left: 30%;
-    position: absolute;
-    background-color: green;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
-
-/* .bigRectThree{
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    background-color: pink;
-}
-
-.bigRectFour{
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    position: absolute;
-    background-color: green;
-}
-
-.bigRectFive{
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    position: absolute;
-    background-color: pink;
-}
-
-.bigRectSix{
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    position: absolute;
-    background-color: green;
-}
-
-.bigRectSeven{
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    position: absolute;
-    background-color: pink;
-} */
 .container {
     width: 100%;
     height: 100vh;
@@ -122,7 +38,7 @@ body{
 }
 
 .containerOne {
-    background-color: black;
+    background-color: #0d0d0d;
     width: 30%;
     height: 100%;
     display: flex; 
@@ -142,44 +58,57 @@ body{
     cursor: pointer;
 }
 
+.containerTwo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 30px;
+    width: 70%;
+    height: 100vh;
+    left: 0;
+    background-color: #fbf7fa;
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
 .card:hover {
-    box-shadow: 0px 0px 20px 5px currentColor;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75);
+    transition: all 3s ease-in-out;
     animation: pulse 3s infinite ease-in-out;
 }
 
 #_card1 {
     background-color: red;
-    color: red;
+    color: white;
 }
 
 #_card2 {
     background-color: green;
-    color: green;
+    color: white;
 }
 
 #_card3 {
     background-color: yellow;
-    color: yellow;
+    color: white;
 }
 
 #_card4 {
     background-color: blue;
-    color: blue;
+    color: white;
 }
 
 #_card5 {
     background-color: brown;
-    color: brown;
+    color: white;
 }
 
 #_card6 {
     background-color: pink;
-    color: pink;
+    color: white;
 }
 
 #_card7 {
     background-color: purple;
-    color: purple;
+    color: white;
 }
 
 @keyframes pulse {
@@ -192,4 +121,110 @@ body{
     100% {
         transform: scale(1);
     }
+}
+
+
+.bigRectOne{
+    width: 600px;
+    height: 600px;
+    top: -70%; /*should go to 20% top*/
+    left: 30%; /*should go to 30% left*/
+    position: absolute;
+    background-color: #fbf7fa;
+    color: #0d0d0d;
+    border : 30px solid #fbf7fa;
+    box-shadow:  0px 16px 25px black;
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.bigRectOne img{
+    width: 100%;
+    height: 60%;
+    border: 5px solid rgba(13, 13, 13, 0.95);
+    box-shadow: inset 18px 18px 36px #8f8f8f,
+            inset -18px -18px 36px #ffffff;
+}
+
+h1{
+    font-size: 5rem;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Cute Font', sans-serif;
+}
+
+h1 span{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.2rem;
+    margin: 5px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Cute Font', sans-serif;
+
+}
+
+.bigRectTwo{
+    width: 600px;
+    height: 600px;
+    top: -70%;
+    left: 30%;
+    position: absolute;
+    background-color: green;
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.bigRectThree{
+    width: 600px;
+    height: 600px;
+    top: -70%;
+    left: 30%;
+    position: absolute;
+    background-color: yellow;
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.bigRectFour{
+    width: 600px;
+    height: 600px;
+    top: -70%;
+    left: 30%;
+    position: absolute;
+    background-color: lightblue;
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.bigRectFive{
+    width: 600px;
+    height: 600px;
+    top: -70%;
+    left: 30%;
+    position: absolute;
+    background-color: brown;
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.bigRectSix{
+    width: 600px;
+    height: 600px;
+    top: -70%;
+    left: 30%;
+    position: absolute;
+    background-color: pink;
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.bigRectSeven{
+    width: 600px;
+    height: 600px;
+    top: -70%;
+    left: 30%;
+    position: absolute;
+    background-color: violet;
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
