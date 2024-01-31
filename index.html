@@ -6,32 +6,128 @@
     <title>Document</title>
     <link rel="stylesheet" href="./Style/style.css">
     <style>
-        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color:#ccc;
+        }
+
+        body{
+            background-color: #ccc;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+
+        .containerOne {
+            background-color: black;
+            width: 35%;
+            height: 100%;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5% 0% 5% 0%;
+        }
+
+        .containerOne .card{
+            height: 100%; 
+            width: 85%;
+            border-radius: 80px;
+            margin: 2%;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            box-shadow: 0px 0px 20px 5px currentColor;
+            animation: pulse 3s infinite ease-in-out;
+        }
+
+        #_card1 {
+            background-color: red;
+            color: red;
+        }
+
+        #_card2 {
+            background-color: green;
+            color: green;
+        }
+
+        #_card3 {
+            background-color: yellow;
+            color: yellow;
+        }
+
+        #_card4 {
+            background-color: blue;
+            color: blue;
+        }
+
+        #_card5 {
+            background-color: brown;
+            color: brown;
+        }
+
+        #_card6 {
+            background-color: pink;
+            color: pink;
+        }
+
+        #_card7 {
+            background-color: purple;
+            color: purple;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
     </style>
+
 </head>
 <body>
     <div class="container" id="container">
         <div class="containerOne" id="_containerOne">
             <div class="card" id="_card1">
-    
+                <img src="" alt="">
             </div>
             <div class="card" id="_card2">
-            
+                <img src="" alt="">
             </div>
             <div class="card" id="_card3">
-            
+                <img src="" alt="">
             </div>
             <div class="card" id="_card4">
-            
+                <img src="" alt="">
             </div>
             <div class="card" id="_card5">
-            
+                <img src="" alt="">
             </div>
             <div class="card" id="_card6">
-            
+                <img src="" alt="">
             </div>
             <div class="card" id="_card7">
-            
+                <img src="" alt="">
             </div>
         </div>
         <div class="containerTwo" id="_containerTwo">
