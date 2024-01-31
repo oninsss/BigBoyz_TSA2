@@ -26,34 +26,54 @@ body{
     background-color: red;
 }
 
+.buttonOne, .buttonTwo{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.rectOne{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.rectOne:hover .bigRectOne{
+    top: 20%;
+}
+
 .containerTwo{
     display: flex;
     flex-direction: column;
     position: relative;
     padding: 30px;
     width: 70%;
-    height: 5000px;
+    height: 100vh;
     left: 0;
     background-color: blue;
 }
 
 .bigRectOne{
-    width: 100%;
-    height: 100%;
-    padding: 20px;
+    width: 600px;
+    height: 600px;
+    top: -70%; /*should go to 20% top*/
+    left: 30%; /*should go to 30% left*/
     position: absolute;
     background-color: pink;
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .bigRectTwo{
-    width: 100%;
-    height: 100%;
-    padding: 20px;
+    width: 600px;
+    height: 600px;
+    top: -70%;
+    left: 30%;
     position: absolute;
     background-color: green;
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-.bigRectThree{
+/* .bigRectThree{
     width: 100%;
     height: 100%;
     padding: 20px;
@@ -90,4 +110,4 @@ body{
     padding: 20px;
     position: absolute;
     background-color: pink;
-}
+} */
