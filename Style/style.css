@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body{
@@ -234,4 +235,87 @@ p{
     position: absolute;
     background-color: violet;
     transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
+}
+
+@media screen and (max-width: 1440px) {
+    .bigRect{
+        left: 15%;
+    }
+
+    .containerOne .card {
+        height: fit-content;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .bigRect{
+        left: 5%;
+    }
+
+    .card h1{
+        font-size: 3rem;
+    }
+
+    .containerOne .card {
+        height: fit-content;
+        margin: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .bigRect{
+        left: -5%;
+        scale: 0.8;
+    }
+
+    .card h1{
+        font-size: 3rem;
+    }
+
+    .containerOne .card {
+        height: fit-content;
+        margin: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+
+    .containerTwo{
+        width: 100%;
+        height: 100%;
+        left: 0;
+    }
+
+    .containerOne{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 200px;
+        width: 100%;
+        overflow-x: visible;
+    }
+
+    .containerOne .card {
+        height: 150px;
+        flex-basis: 50%;
+        margin: 20px;
+       
+    }
+
+    .bigRect{
+        left: -20%;
+        scale: 0.6;
+    }
+
+    .card h1{
+        font-size: 3rem;
+    }
+
+    
 }
