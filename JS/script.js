@@ -113,19 +113,12 @@ cardSeven.addEventListener('click', () => {
 });
 
 cardOne.addEventListener('mouseover', () => {
-    cardOne.style.transition = 'background 0.5s ease'; // Add transition property (Not Working ata)
+    cardOne.style.transition = 'background 0.5s ease'; // Add transition property
     cardOne.style.background = 'url("https://i.pinimg.com/originals/d8/6f/3a/d86f3ab8192f5589eca93cd7725ad8e4.gif")';
     cardOne.style.boxShadow = 'inset 50px 50px 100px #0d0d0d'
 });
 
-cardTwo.addEventListener('mouseover', () => {
-    cardTwo.style.transition = 'background 0.5s ease'; // Add transition property (Not Working ata)
-    cardTwo.style.background = 'url("https://i.pinimg.com/originals/d8/6f/3a/d86f3ab8192f5589eca93cd7725ad8e4.gif")';
-    cardTwo.style.boxShadow = 'inset 50px 50px 100px #0d0d0d'
-});
-
 cardOne.addEventListener('mouseout', () => {
-    cardOne.style.background = "#CC8B55";
+    cardOne.style.background = "red";
     cardOne.style.boxShadow = 'none'
 });
-
