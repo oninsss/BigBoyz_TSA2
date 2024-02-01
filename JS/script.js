@@ -118,12 +118,6 @@ cardOne.addEventListener('mouseover', () => {
     cardOne.style.boxShadow = 'inset 50px 50px 100px #0d0d0d'
 });
 
-cardThree.addEventListener('mouseover', () => {
-    cardThree.style.transition = 'background 0.5s ease'; // Add transition property (Not Working ata)
-    cardThree.style.background = 'url("../Images/Wed.gif")';
-    cardThree.style.boxShadow = 'inset 50px 50px 100px #0d0d0d'
-});
-
 cardOne.addEventListener('mouseout', () => {
     cardOne.style.background = "#CC8B55";
     cardOne.style.boxShadow = 'none'
