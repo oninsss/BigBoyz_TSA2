@@ -38,7 +38,7 @@ function moveBackRect(bigRectNum){
 
 function moveBigRects(BrectMove){
     if (BrectMove == 1){
-        containerTwo.style.backgroundColor = '#80462b';
+        containerTwo.style.backgroundImage = 'url()';
         moveRect(bigRectOne);
         moveBackRect(pastRect);
         
@@ -46,6 +46,7 @@ function moveBigRects(BrectMove){
         moveRect(bigRectTwo);
         moveBackRect(pastRect);
     } else if (BrectMove == 3){
+        containerTwo.style.backgroundImage = 'url(Images/BgWed.png)';
         moveRect(bigRectThree);
         moveBackRect(pastRect);
     } else if (BrectMove == 4){
@@ -112,14 +113,14 @@ cardSeven.addEventListener('click', () => {
     moveBigRects(rectMove);
 });
 
-cardOne.addEventListener('mouseover', () => {
-    cardOne.style.transition = 'background 0.5s ease'; // Add transition property (Not Working ata)
-    cardOne.style.background = 'url("https://i.pinimg.com/originals/d8/6f/3a/d86f3ab8192f5589eca93cd7725ad8e4.gif")';
-    cardOne.style.boxShadow = 'inset 50px 50px 100px #0d0d0d'
-});
+// cardOne.addEventListener('mouseover', () => {
+//     cardOne.style.transition = 'background 0.5s ease'; // Add transition property (Not Working ata)
+//     cardOne.style.background = 'url("https://i.pinimg.com/originals/d8/6f/3a/d86f3ab8192f5589eca93cd7725ad8e4.gif")';
+//     cardOne.style.boxShadow = 'inset 50px 50px 100px #0d0d0d'
+// });
 
-cardOne.addEventListener('mouseout', () => {
-    cardOne.style.background = "#CC8B55";
-    cardOne.style.boxShadow = 'none'
-});
+// cardOne.addEventListener('mouseout', () => {
+//     cardOne.style.background = "#755740";
+//     cardOne.style.boxShadow = 'none'
+// });
 

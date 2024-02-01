@@ -49,7 +49,11 @@ body{
     height: 100vh;
     left: 0;
     background-color: #fbf7fa;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .card:hover {
@@ -59,38 +63,59 @@ body{
 }
 
 #_card1 {
-    background-color: #CC8B55;
     color: white;
+    background-image: url('../Images/Monday.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 45px 45px 54px #1d1d1f;
 }
 
 #_card2 {
-    background-color: #;
     color: white;
+    background-image: url('../Images/Tuesday.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 45px 45px 54px #1d1d1f;
 }
 
 #_card3 {
-    background-color: #1B337B;
     color: white;
+    background-image: url('../Images/Wednesday.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 45px 45px 54px #1d1d1f;
 }
 
 #_card4 {
-    background-color: #E6595E;
     color: white;
+    background-image: url('../Images/Thursday.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 45px 45px 54px #1d1d1f;
 }
 
 #_card5 {
-    background-color: #;
     color: white;
+    background-image: url('../Images/Friday.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 45px 45px 54px #1d1d1f;
 }
 
 #_card6 {
-    background-color: #;
     color: white;
+    background-image: url('../Images/Saturday.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 45px 45px 54px #1d1d1f;
 }
 
 #_card7 {
-    background-color: #B4C046;
     color: white;
+    background-image: url('../Images/Sunday.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 45px 45px 54px #1d1d1f;
 }
 
 @keyframes pulse {
@@ -109,14 +134,14 @@ body{
 .bigRect{
     width: 600px;
     height: 600px;
-    top: -70%; /*should go to 20% top*/
-    left: 30%; /*should go to 30% left*/
+    top: -100%;
+    left: 30%;
     position: absolute;
     background-color: #fbf7fa;
     color: #0d0d0d;
     border : 30px solid #fbf7fa;
     box-shadow:  0px 16px 25px black;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
 }
 
 .bigRect img{
@@ -154,59 +179,59 @@ p{
 #bigRectTwo{
     width: 600px;
     height: 600px;
-    top: -70%;
+    top: -100%;
     left: 30%;
     position: absolute;
     background-color: green;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
 }
 
 #bigRectThree{
     width: 600px;
     height: 600px;
-    top: -70%;
+    top: -100%;
     left: 30%;
     position: absolute;
     background-color: yellow;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
 }
 
 #bigRectFour{
     width: 600px;
     height: 600px;
-    top: -70%;
+    top: -100%;
     left: 30%;
     position: absolute;
     background-color: #242455;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
 }
 
 #bigRectFive{
     width: 600px;
     height: 600px;
-    top: -70%;
+    top: -100%;
     left: 30%;
     position: absolute;
     background-color: brown;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
 }
 
 #bigRectSix{
     width: 600px;
     height: 600px;
-    top: -70%;
+    top: -100%;
     left: 30%;
     position: absolute;
     background-color: pink;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
 }
 
 #bigRectSeven{
     width: 600px;
     height: 600px;
-    top: -70%;
+    top: -100%;
     left: 30%;
     position: absolute;
     background-color: violet;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
 }
