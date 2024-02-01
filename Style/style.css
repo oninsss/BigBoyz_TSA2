@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #f5f7fa;
+    background-color: #e8e1d8;
     overflow: hidden;
 }
 
@@ -20,7 +20,7 @@ body{
 }
 
 .containerOne {
-    background-color: #0d0d0d;
+    background-color: #e5ded4;
     width: 30%;
     height: 100%;
     display: flex; 
@@ -28,6 +28,8 @@ body{
     justify-content: center;
     align-items: center;
     padding: 5% 0% 5% 0%;
+    box-shadow:  0px 16px 25px black;
+    z-index: 1;
 }
 
 .containerOne .card{
@@ -48,7 +50,7 @@ body{
     width: 70%;
     height: 100vh;
     left: 0;
-    background-color: #fbf7fa;
+    background-color: #e8e1d8;
     transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,7 +61,7 @@ body{
 .card:hover {
     box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75);
     transition: all 3s ease-in-out;
-    animation: pulse 3s infinite ease-in-out;
+    animation: pulse 1.5s infinite ease-in-out;
 }
 
 #_card1 {
@@ -131,7 +133,7 @@ body{
 }
 
 
-.bigRect{
+.bigRect1, .bigRect2, .bigRect3, .bigRect4, .bigRect5, .bigRect6, .bigRect7{
     width: 600px;
     height: 600px;
     top: -100%;
@@ -144,10 +146,9 @@ body{
     transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
 }
 
-.bigRect img{
+.bigRect1 img, .bigRect2 img, .bigRect3 img, .bigRect4 img, .bigRect5 img, .bigRect6 img, .bigRect7 img{
     width: 100%;
     height: 60%;
-    border: 5px solid rgba(13, 13, 13, 0.95);
     box-shadow: inset 18px 18px 36px #8f8f8f,
             inset -18px -18px 36px #ffffff;
 }
@@ -176,62 +177,30 @@ p{
 
 }
 
-#bigRectTwo{
-    width: 600px;
-    height: 600px;
-    top: -100%;
-    left: 30%;
-    position: absolute;
-    background-color: green;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
+.bigRect1 img{
+    border: 5px solid #755740;
 }
 
-#bigRectThree{
-    width: 600px;
-    height: 600px;
-    top: -100%;
-    left: 30%;
-    position: absolute;
-    background-color: yellow;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
+.bigRect2 img{
+    border: 5px solid #6B233A;
 }
 
-#bigRectFour{
-    width: 600px;
-    height: 600px;
-    top: -100%;
-    left: 30%;
-    position: absolute;
-    background-color: #242455;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
+.bigRect3 img{
+    border: 5px solid #A13530;
+}
+ 
+.bigRect4 img{
+    border: 5px solid #1F2560;
 }
 
-#bigRectFive{
-    width: 600px;
-    height: 600px;
-    top: -100%;
-    left: 30%;
-    position: absolute;
-    background-color: brown;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
+.bigRect5 img{
+    border: 5px solid #353B30;
 }
 
-#bigRectSix{
-    width: 600px;
-    height: 600px;
-    top: -100%;
-    left: 30%;
-    position: absolute;
-    background-color: pink;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
+.bigRect6 img{
+    border: 5px solid #EFCB85;
 }
 
-#bigRectSeven{
-    width: 600px;
-    height: 600px;
-    top: -100%;
-    left: 30%;
-    position: absolute;
-    background-color: violet;
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.45, 1.55);
+.bigRect7 img{
+    border: 5px solid #B4B43B;
 }

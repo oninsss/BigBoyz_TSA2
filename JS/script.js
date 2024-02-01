@@ -38,15 +38,12 @@ function moveBackRect(bigRectNum){
 
 function moveBigRects(BrectMove){
     if (BrectMove == 1){
-        containerTwo.style.backgroundImage = 'url()';
         moveRect(bigRectOne);
-        moveBackRect(pastRect);
-        
+        moveBackRect(pastRect);       
     } else if (BrectMove == 2){
         moveRect(bigRectTwo);
         moveBackRect(pastRect);
     } else if (BrectMove == 3){
-        containerTwo.style.backgroundImage = 'url(Images/BgWed.png)';
         moveRect(bigRectThree);
         moveBackRect(pastRect);
     } else if (BrectMove == 4){
