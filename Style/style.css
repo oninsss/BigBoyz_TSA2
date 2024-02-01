@@ -82,32 +82,32 @@ body{
 }
 
 #_card2 {
-    background-color: green;
+    background-color: #;
     color: white;
 }
 
 #_card3 {
-    background-color: yellow;
+    background-color: #1B337B;
     color: white;
 }
 
 #_card4 {
-    background-color: blue;
+    background-color: #E6595E;
     color: white;
 }
 
 #_card5 {
-    background-color: brown;
+    background-color: #;
     color: white;
 }
 
 #_card6 {
-    background-color: pink;
+    background-color: #;
     color: white;
 }
 
 #_card7 {
-    background-color: purple;
+    background-color: #B4C046;
     color: white;
 }
 
@@ -124,7 +124,7 @@ body{
 }
 
 
-.bigRectOne{
+.bigRect{
     width: 600px;
     height: 600px;
     top: -70%; /*should go to 20% top*/
@@ -137,7 +137,7 @@ body{
     transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-.bigRectOne img{
+.bigRect img{
     width: 100%;
     height: 60%;
     border: 5px solid rgba(13, 13, 13, 0.95);
@@ -169,7 +169,7 @@ p{
 
 }
 
-.bigRectTwo{
+#bigRectTwo{
     width: 600px;
     height: 600px;
     top: -70%;
@@ -179,7 +179,7 @@ p{
     transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-.bigRectThree{
+#bigRectThree{
     width: 600px;
     height: 600px;
     top: -70%;
@@ -189,17 +189,17 @@ p{
     transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-.bigRectFour{
+#bigRectFour{
     width: 600px;
     height: 600px;
     top: -70%;
     left: 30%;
     position: absolute;
-    background-color: lightblue;
+    background-color: #242455;
     transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-.bigRectFive{
+#bigRectFive{
     width: 600px;
     height: 600px;
     top: -70%;
@@ -209,7 +209,7 @@ p{
     transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-.bigRectSix{
+#bigRectSix{
     width: 600px;
     height: 600px;
     top: -70%;
@@ -219,7 +219,7 @@ p{
     transition: all 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-.bigRectSeven{
+#bigRectSeven{
     width: 600px;
     height: 600px;
     top: -70%;

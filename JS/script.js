@@ -118,10 +118,10 @@ cardOne.addEventListener('mouseover', () => {
     cardOne.style.boxShadow = 'inset 50px 50px 100px #0d0d0d'
 });
 
-cardTwo.addEventListener('mouseover', () => {
-    cardTwo.style.transition = 'background 0.5s ease'; // Add transition property (Not Working ata)
-    cardTwo.style.background = 'url("https://i.pinimg.com/originals/d8/6f/3a/d86f3ab8192f5589eca93cd7725ad8e4.gif")';
-    cardTwo.style.boxShadow = 'inset 50px 50px 100px #0d0d0d'
+cardThree.addEventListener('mouseover', () => {
+    cardThree.style.transition = 'background 0.5s ease'; // Add transition property (Not Working ata)
+    cardThree.style.background = 'url("../Images/Wed.gif")';
+    cardThree.style.boxShadow = 'inset 50px 50px 100px #0d0d0d'
 });
 
 cardOne.addEventListener('mouseout', () => {
